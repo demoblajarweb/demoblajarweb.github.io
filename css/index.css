@@ -27,7 +27,7 @@
  }
  .btn-learn{
  	padding: 8px;
- 	min-width: 150px;
+ 	max-width: 150px;
  }
  .img-logo{
  	height: 320px;
@@ -71,6 +71,12 @@
  	}
  	header .intro-text .skills{
  		font-size:1.75em
+ 	}
+ 	.navbar-custom.affix{
+ 		padding:10px 0
+ 	}
+ 	.navbar-custom.affix .navbar-brand{
+ 		font-size:1.5em
  	}
  }
  .navbar-custom{
