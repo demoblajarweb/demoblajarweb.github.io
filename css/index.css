@@ -10,9 +10,6 @@
  p{
  	font-size:20px
  }
- p.small{
- 	font-size:16px
- }
  a,a.active,a:active,a:focus,a:hover{
  	color:#18BC9C
  }
@@ -53,10 +50,6 @@
  header .container{
  	padding-top:300px;
  	padding-bottom:50px
- }
- header img{
- 	display:block;
- 	margin:0 auto 20px
  }
  header .intro-text .name{
  	display:block;
@@ -131,12 +124,6 @@
  		-moz-transition:all .3s;
  		transition:all .3s
  	}
- 	.navbar-custom.affix{
- 		padding:10px 0
- 	}
- 	.navbar-custom.affix .navbar-brand{
- 		font-size:1.5em
- 	}
  }
  section{
  	padding:50px 0
@@ -181,13 +168,6 @@
  .floating-label-form-group:not(:first-child){
  	padding-left:14px;
  	border-left:1px solid #eee
- }
- .floating-label-form-group-with-value label{
- 	top:0;
- 	opacity:1
- }
- .floating-label-form-group-with-focus label{
- 	color:#18BC9C
  }
  form .row:first-child .floating-label-form-group{
  	border-top:1px solid #eee
@@ -235,19 +215,6 @@
  .btn-primary.active,.btn-primary:active,.open .dropdown-toggle.btn-primary{
  	background-image:none
  }
- .btn-primary.disabled,.btn-primary.disabled.active,.btn-primary.disabled:active,
- .btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled],
- .btn-primary[disabled].active,.btn-primary[disabled]:active,.btn-primary[disabled]:focus,
- .btn-primary[disabled]:hover,fieldset[disabled] .btn-primary,
- fieldset[disabled] .btn-primary.active,fieldset[disabled] .btn-primary:active,
- fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{
- 	background-color:#2C3E50;
- 	border-color:#2C3E50
- }
- .btn-primary .badge{
- 	color:#2C3E50;
- 	background-color:#fff
- }
  .btn-success{
  	color:#fff;background-color:#18BC9C;
  	border-color:#18BC9C;
@@ -261,17 +228,6 @@
  }
  .btn-success.active,.btn-success:active,.open .dropdown-toggle.btn-success{
  	background-image:none
- }
- .btn-success.disabled,.btn-success.disabled.active,.btn-success.disabled:active,.btn-success.disabled:focus,
- .btn-success.disabled:hover,.btn-success[disabled],.btn-success[disabled].active,.btn-success[disabled]:active,
- .btn-success[disabled]:focus,.btn-success[disabled]:hover,fieldset[disabled] .btn-success,
- fieldset[disabled] .btn-success.active,fieldset[disabled] .btn-success:active,
- fieldset[disabled] .btn-success:focus,fieldset[disabled] .btn-success:hover{
- 	background-color:#18BC9C;border-color:#18BC9C
- }
- .btn-success .badge{
- 	color:#18BC9C;
- 	background-color:#fff
  }
  .btn-social{
  	display:inline-block;
@@ -296,61 +252,6 @@
  	border-radius:100%;
  	line-height:28px
  }
- .portfolio-modal .modal-content{
- 	border-radius:0;
- 	background-clip:border-box;
- 	-webkit-box-shadow:none;
- 	box-shadow:none;
- 	border:none;
- 	min-height:100%;
- 	padding:100px 0;
- 	text-align:center
- }
- .portfolio-modal .modal-content h2{
- 	margin:0;
- 	font-size:3em
- }
- .portfolio-modal .modal-content img{
- 	margin-bottom:30px
- }
- .portfolio-modal .modal-content .item-details{
- 	margin:30px 0
- }
- .portfolio-modal .close-modal{
- 	position:absolute;
- 	width:75px;
- 	height:75px;
- 	background-color:transparent;
- 	top:25px;
- 	right:25px;
- 	cursor:pointer
- }
- .portfolio-modal .close-modal:hover{
- 	opacity:.3
- }
- .portfolio-modal .close-modal .lr{
- 	height:75px;
- 	width:1px;
- 	margin-left:35px;
- 	background-color:#2C3E50;transform:rotate(45deg);
- 	-ms-transform:rotate(45deg);
- 	-webkit-transform:rotate(45deg);
- 	z-index:1051
- }
- .portfolio-modal .close-modal .lr .rl{
- 	height:75px;
- 	width:1px;
- 	background-color:#2C3E50;
- 	transform:rotate(90deg);
- 	-ms-transform:rotate(90deg);
- 	-webkit-transform:rotate(90deg);
- 	z-index:1052
- }
- .portfolio-modal .modal-backdrop{
- 	opacity:0;
- 	display:none
- }
-
  div#maincontent{
  	outline:0
  }
